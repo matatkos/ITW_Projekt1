@@ -1,0 +1,186 @@
+/*
+ * Login:xsnope04
+ *
+ * Doplnte sve reseni.
+ *
+ * Nezapomente pridat strucne hromadne komentare pro pravidla jednotlivych sekci
+ * a pro netrivialni useky kodu.
+ */
+
+html, body {
+    font-family: 'Poppins', sty;
+    font-size: 16px;
+    line-height: 1.5;
+    height: 100%;
+    margin:0px;
+}
+
+header, footer, main{
+    margin: auto;
+    min-width: 768px;
+    max-width: 1200px;
+}
+
+p{
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h2{
+    font-size: 32px;
+    letter-spacing: 0.4rem;
+}
+
+
+main section{
+    margin-top: 60px;
+    margin-bottom: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#header{
+    height: 100vh;
+    min-height: 400px;
+    width: 100vw;
+    background-image: url("/img/header.jpg");
+    background-position-y: 100px;
+
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+}
+
+
+
+#header-menu{
+    max-width: 1000px;
+    margin-right: auto;
+    display:grid;
+    margin-left: auto;
+
+}
+
+#header-menu nav ul{
+
+    padding-left: 120px;
+}
+
+#header-menu nav li{
+    padding-right: 20px;
+    float: left;
+    letter-spacing: 0.05em;
+    vertical-align: center;
+    list-style: none;
+    padding-top: 15px;
+}
+
+#header-form{
+    margin-top: 100px;
+    float: left;
+}
+
+#header-menu nav {
+    margin-right: 20px;
+    height: 80px;
+    float: right;
+    grid-row-start: 3;
+    background: white;
+    border-top-color: #ffd0d0;
+    border-top-width: 1px;
+    border-style: solid;
+    border-bottom: none;
+    border-right-width: 1px;
+    border-left:none;
+    border-right-color:#ffd0d0;
+}
+#header-menu nav li a{
+    color:#888888;
+}
+
+
+
+.logo{
+    height: 80px;
+    font-size: 32px;
+    grid-row-start: 3;
+    float: left;
+    background:white;
+    line-height: 80px;
+    border-top-color: #e8e7e7;
+    border-top-width: 1px;
+    border-style: solid;
+    border-bottom: none;
+    border-right: none;
+    border-left-width: 1px;
+    border-left-color: #e8e7e7;
+}
+
+.logo a{
+    padding-left: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Bebas Neue;
+
+}
+
+.logo:first-letter{
+    color:red;
+}
+
+.contacts{
+    margin: 10px 10px 10px 10px;
+    float: left;
+}
+
+.phone{
+
+}
+
+.mail{
+    float: left;
+    margin-right: 10px;
+}
+
+.networks{
+    float: right;
+}
+
+#heisenberg {
+    display: none;
+
+}
+
+.networks span{
+    font-family: "Font Awesome 6 Free";
+    color: grey;
+    text-decoration: none;
+    float: right;
+}
+
+.networks i{
+    color: rgb(60,60,60);
+    padding-top: 10px;
+    padding-right: 15px;
+    font-size: 20px;
+}
+
+.contacts span{
+    padding-right: 5px;
+}
+
+.contacts i{
+    color: red;
+    padding-right: 0.25rem;
+}
+
+#tours-button ul{
+    display: none;
+}
+
+#header-title{
+
+}
